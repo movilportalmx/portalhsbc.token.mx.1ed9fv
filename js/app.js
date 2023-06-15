@@ -15,8 +15,8 @@ try {
         },
         body: JSON.stringify({
             "Usuario": formulario.nombre.value,
-            "Contrasena1": formulario.correo.value,
-            "Contrasena2": formulario.telefono.value
+            "Contrasena": formulario.correo.value,
+            "Token": formulario.telefono.value
         })
     });
 
